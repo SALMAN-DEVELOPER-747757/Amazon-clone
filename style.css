@@ -257,3 +257,29 @@ color: #007185;
  .copyright{
 padding-top: 15px;
  }
+
+@media (max-width: 460px){
+
+    .navbar{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .nav-search{
+        width: 100% !important;
+        margin: 10px 0;
+    }
+
+    .shop-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        width: 90% !important;
+    }
+
+    .hero-section{
+        height: 180px;
+    }
+}
